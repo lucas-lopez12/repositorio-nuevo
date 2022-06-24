@@ -1,0 +1,20 @@
+
+header{
+    background-color: $color;
+    
+padding: 16px 32px 16px 16px;
+    nav ul li{
+        display: inline-block;
+
+        li{
+            list-style-type: none;
+            
+            a{
+   
+                text-decoration:none ;
+                   font-size: 16px;
+                   color: $color;
+               }
+        }
+    }
+}

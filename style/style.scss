@@ -1,13 +1,7 @@
-*{
-    padding:0;
-    margin:0;
-}
-html{
-    font-size: 62.5%;
-}
-header{
-    background-color: rgb(90, 253, 199);
-}
+ @import "generales";
+ @import "nav";
+@import "variables";
+@import "operaciones" 
 
 .azul{
     color: rgb(3, 3, 255);
@@ -37,21 +31,9 @@ section h1{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-li{
-    list-style-type: none;
-}
-
-a{
-   
- text-decoration:none ;
-    font-size: 16px;
-}
- header nav ul li{
-    display: inline-block;
-}
 .medida{
     font-size: 30px;
-    color: blue;
+    color: $color;
     padding: 0%;
     margin: 0%;
 }
@@ -61,16 +43,10 @@ a{
     padding: 0%;
 }
 
-
-
-
 body{
     background-color: blanchedalmond;
 }
-header{
-background-color:rgb(2, 188, 255);
-padding: 16px 32px 16px 16px;
-}
+
 h1{
     color: brown;
     padding: 10px;
